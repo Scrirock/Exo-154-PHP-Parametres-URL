@@ -11,6 +11,7 @@
 
 // TODO Votre code ici.
 
+echo "<a href='exo1.php?iteration=10'>Lien vers la page exo 1</a><br>";
 
 /**
  * Exo 2
@@ -21,6 +22,7 @@
  */
 
 
+for ($i = 1; $i <= 15; $i++) echo "<a href='exo1.php?iteration=".$i."'>Lien vers la page exo 2 avec ".$i." iteration</a><br>";
 
 
-
+?>
